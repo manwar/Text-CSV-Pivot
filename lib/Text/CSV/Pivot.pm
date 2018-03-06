@@ -1,6 +1,6 @@
 package Text::CSV::Pivot;
 
-$Text::CSV::Pivot::VERSION   = '0.02';
+$Text::CSV::Pivot::VERSION   = '0.03';
 $Text::CSV::Pivot::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Text::CSV::Pivot - Transform CSV file into Pivot Table format.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
@@ -41,7 +41,7 @@ so that others can also benefit.
 
 Below is sample data, I used for prototype as source csv file.
 
-    +----------------+-----------+-----------------+
+    +----------------+-----------+--------+--------+
     | Student        | Subject   | Result | Year   |
     +----------------+-----------+--------+--------+
     | Smith, John    | Music     | 7.0    | Year 1 |
