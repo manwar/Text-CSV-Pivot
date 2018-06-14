@@ -12,6 +12,7 @@ WriteMakefile(
     ABSTRACT_FROM      => 'lib/Text/CSV/Pivot.pm',
     LICENSE            => 'artistic_2',
     MIN_PERL_VERSION   => 5.008,
+    EXE_FILES          => [ 'script/csv-pivot' ],
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
     },
@@ -20,6 +21,7 @@ WriteMakefile(
         'File::Temp' => 0,
     },
     PREREQ_PM => {
+        'Getopt::Long'   => '2.48',
         'Text::CSV'      => '1.33',
         'File::Basename' => '2.6',
     },
