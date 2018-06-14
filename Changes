@@ -1,5 +1,8 @@
 Revision history for Text::CSV::Pivot
 
+0.05  2018-06-14
+      - Added handy tool csv-pivot to play with it.
+
 0.04  2018-06-13
       - Removed dependency on Moo as suggested by Steven Bray.
 
