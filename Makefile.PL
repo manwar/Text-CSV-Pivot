@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-use 5.006;
+use 5.008;
 use strict;
 use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
@@ -11,7 +11,7 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Text/CSV/Pivot.pm',
     ABSTRACT_FROM      => 'lib/Text/CSV/Pivot.pm',
     LICENSE            => 'artistic_2',
-    MIN_PERL_VERSION   => 5.006,
+    MIN_PERL_VERSION   => 5.008,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
     },
