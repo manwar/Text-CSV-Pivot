@@ -1,6 +1,6 @@
 package Text::CSV::Pivot;
 
-$Text::CSV::Pivot::VERSION   = '0.06';
+$Text::CSV::Pivot::VERSION   = '0.07';
 $Text::CSV::Pivot::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Text::CSV::Pivot - Transform CSV file into Pivot Table format.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
@@ -170,6 +170,22 @@ You should get the result as below:
     | Gabriel, Peter | 10.0      | 7.0     |          | 10.0  | 2.0   |
     | Smith, John    |           | 9.0     | 7.0      | 4.0   | 7.0   |
     +----------------+-----------+---------+----------+-------+-------+
+
+=head1 CLI
+
+With the C<Text::CSV::Pivot v0.06> or above, there is a tool distributed with the
+distribution called C<csv-pivot>.
+
+  Usage: csv-pivot [OPTIONS]...
+
+      OPTIONS:
+         -i, --i, -input-file,    --input-file=s     input file (required)
+         -o, --o, -output-file,   --output-file=s    output file (optional)
+         -k, --k, -col-key-idx,   --col-key-idx=i    key column index (required)
+         -n, --n, -col-name-idx,  --col-name-idx=i   name column index (required)
+         -v, --v, -col-value-idx, --col-value-idx=i  value column index (required)
+         -s, --s, -col-skip-idx,  --col-skip-idx=s   comma separated skip column index (optional)
+         -h, --help                                  print this message
 
 =head1 CONSTRUCTOR
 
