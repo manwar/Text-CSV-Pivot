@@ -1,5 +1,8 @@
 Revision history for Text::CSV::Pivot
 
+0.09  2018-06-25
+      - Added test scripts (t/meta-json.t and t/meta-yml.t).
+
 0.08  2018-06-17
       - Added strict/warnings pragma.
 
